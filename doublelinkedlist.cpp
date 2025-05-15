@@ -192,6 +192,10 @@ class DoubleLinkedList
 
         Node *current = START;
 
+        //step 1: Traverse to find matching roll number
+        while (current != NULL && current->noMhs != rollNo)
+            current = current->next;
+
         
     }
 };
