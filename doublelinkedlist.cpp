@@ -137,6 +137,13 @@ class DoubleLinkedList
         }
         //step 1: Mark first node as currentNode
         Node *curretNode = START;
-        
+        //step 2: Repeat until currentNode == NULL
+        cout << "\nRecords in ascending order of roll number are:\n";
+        int i = 0;
+        while (curretNode != NULL)
+        {
+            cout << i + 1 << ". " << curretNode->noMhs << " " << endl;
+            
+        }
     }
 };
