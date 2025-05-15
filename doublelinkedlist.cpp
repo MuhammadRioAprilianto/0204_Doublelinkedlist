@@ -143,7 +143,9 @@ class DoubleLinkedList
         while (curretNode != NULL)
         {
             cout << i + 1 << ". " << curretNode->noMhs << " " << endl;
-            
+            //step 3: Move to next node
+            curretNode = curretNode->next;
+            i++;
         }
     }
 };
